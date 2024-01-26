@@ -6,7 +6,7 @@ Hopefully they will be useful for somebody else
 
 ## What it does?
 
-To calculate a(3) this how it proceeds:
+To calculate a(3) this how to proceed manually:
 
 ```text
 3 ^           3 mod             10 =             7
@@ -22,8 +22,11 @@ To calculate a(3) this how it proceeds:
 ```
 read a(3) = 2_464_195_387
 
+Every implementation try to calculate the sequence using equivalent algorithm.
 
-Work in process...
+
+# Work in process...
+
 
 
 
