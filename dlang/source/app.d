@@ -8,12 +8,10 @@ import std.bigint : BigInt, powmod;
 
 BigInt a165736(BigInt n)
 {
-    BigInt modVal = BigInt("10_000_000_000");
-
     BigInt result = n;
 
-    for (int i = 0; i < 10; i++)
-        result = powmod(n, result, modVal);
+    foreach (i; 1 .. 1+10)
+        result = powmod(n, result, 10.BigInt^^i);
 
     return result;
 }
