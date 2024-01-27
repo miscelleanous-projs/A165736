@@ -8,6 +8,8 @@ import std.bigint : BigInt, powmod;
 
 BigInt a165736(BigInt n)
 {
+    if (n % 10 == 0) return 0.BigInt;
+    
     BigInt result = n;
 
     foreach (i; 1 .. 1+10)
