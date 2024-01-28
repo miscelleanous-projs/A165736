@@ -4,7 +4,7 @@ For some reason, I need them at my reach to solve *Math'n code* challenge using 
 
 Hopefully they will be useful for somebody else
 
-## What it does?
+## What it does do?
 
 To calculate a(3) this how to proceed manually:
 
