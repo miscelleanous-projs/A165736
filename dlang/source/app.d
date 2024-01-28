@@ -20,7 +20,7 @@ BigInt a165736(BigInt n)
 
 void main()
 {
-    iota(1.BigInt, 100.BigInt + 1).map!a165736.writeln;
+    iota(1.BigInt, 24.BigInt + 1).map!a165736.writeln;
 }
 
 unittest
