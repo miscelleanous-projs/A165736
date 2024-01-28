@@ -22,7 +22,7 @@ To calculate a(3) this how to proceed manually:
 ```
 read a(3) = 2_464_195_387
 
-namely `aA165736(n) = n^(n^(n^(n^(n^(n^(n^(n^(n^(n^n mod 10) mod 100) mod 1000) mod 10000) mod 100000) mod 1000000) mod 10000000) mod 100000000) mod 1000000000) mod 10000000000`
+namely `aA165736(n) = n^(n^(n^(n^(n^(n^(n^(n^(n^(n^n mod 10) mod 100) mod 1_000) mod 10_000) mod 100_000) mod 1_000_000) mod 10_000_000) mod 100_000_000) mod 1_000_000_000) mod 10_000_000_000`
 
 Every implementation try to calculate the sequence using equivalent algorithm.
 
