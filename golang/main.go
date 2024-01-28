@@ -25,7 +25,7 @@ func a165736(n *big.Int) *big.Int {
 }
 
 func main() {
-	for i := big.NewInt(1); i.Cmp(big.NewInt(101)) < 0; i.Add(i, big.NewInt(1)) {
+	for i := big.NewInt(1); i.Cmp(big.NewInt(24+1)) < 0; i.Add(i, big.NewInt(1)) {
 		fmt.Println(a165736(i))
 	}
 }
