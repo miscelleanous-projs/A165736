@@ -1,6 +1,7 @@
 import std.stdio : writeln;
 import std.range : iota;
 import std.bigint : BigInt, powmod;
+import std.algorithm;
 
 // OEIS-A165736
 // https://oeis.org/A165736
@@ -19,8 +20,8 @@ BigInt a165736(BigInt n)
 
 void main()
 {
-    foreach(i; iota(1.BigInt, 24.BigInt + 1))
-        i.a165736.writeln;
+    // https://oeis.org/A165736/list
+    iota(1.BigInt, 24.BigInt + 1).map!a165736.writeln;
 }
 
 unittest
