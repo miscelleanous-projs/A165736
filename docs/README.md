@@ -26,9 +26,3 @@ namely `aA165736(n) = n^(n^(n^(n^(n^(n^(n^(n^(n^(n^n mod 10) mod 100) mod 1_000)
 
 Every implementation try to calculate the sequence using equivalent algorithm.
 
-
-# Work in process...
-
-
-
-
